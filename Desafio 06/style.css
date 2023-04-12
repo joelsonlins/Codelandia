@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Open+Sans:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main h2 {
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 45px;
+}
+.main h1 {
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+  color: #ffffff;
+  margin-top: 35px;
+  margin-bottom: 120px;
+}
+.container {
+  display: flex;
+
+  margin-left: 16%;
+  margin-right: 16%;
+}
+.container_l {
+  margin-right: 71px;
+}
+.container_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container_r p {
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.clock img {
+  margin-bottom: -5px;
+  margin-right: 14px;
+}
+.stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stars p {
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.stars > ul {
+  display: flex;
+}
+.stars ul li {
+  margin-right: 15px;
+  list-style-type: none;
+}
+.btn_1 {
+  width: 184px;
+  height: 52px;
+  background: #0072d2;
+  border-radius: 3px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  margin-right: 21px;
+  cursor: pointer;
+}
+.btn_2 {
+  width: 115px;
+  height: 52px;
+  background: #131318;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
